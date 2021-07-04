@@ -2,6 +2,7 @@
 
 Voici le détail de votre demande: {{ $user_query }} <br><br>
 
-Vous recevrez une réponse à votre demande dans les plus bref délai.
-
-Merci
+Vous recevrez une réponse à votre demande dans les plus bref délai.<br>
+<br>
+Alexis Resses<br>
+AR Web Developpement

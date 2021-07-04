@@ -1,4 +1,4 @@
-<h2>Bonjour</h2> <br><br>
+<h2>Bonjour Alexis</h2> <br><br>
 
 Vous avez reçu un nouveau message de : {{ $firstname }} <br><br>
 
@@ -12,4 +12,4 @@ Acceptation CGU: {{ $consent}} <br>
 Sujet: {{ $subject }} <br>
 Message: {{ $user_query }} <br><br>
 
-Merci
+Bonne réception
