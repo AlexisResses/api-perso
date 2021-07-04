@@ -44,7 +44,7 @@ class ContactFormController extends Controller
                 'user_query' => $request->get('message'),
             ), function($message) use ($request){
                 $message->from($request->email);
-                $message->to('alexis.resses@gmail.com', 'Admin')->subject("Nouveau message");
+                $message->to(env(MAIL_FROM_ADRESS), 'Admin')->subject("Nouveau message");
             });
     
             return response()->json(['message' => 'Votre message est bien envoyée'], 201);
